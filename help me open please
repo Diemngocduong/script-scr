@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from zuramai.github.io/mazer/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Aug 2021 19:52:32 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit | Bitcoin Fx Trading - Diversified investment platform</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://bftrading.org/app/dash_assets/assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://bftrading.org/app/dash_assets/assets/vendors/iconly/bold.css">
+
+    <link rel="stylesheet" href="https://bftrading.org/app/dash_assets/assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="https://bftrading.org/app/dash_assets/assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://bftrading.org/app/dash_assets/assets/css/app.css">
+    <link rel="icon" href="https://bftrading.org/app/assets/favicon.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/a551bd7de4.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.0/css/dataTables.bootstrap4.min.css">
+    <script src="//code.tidio.co/y0jtry0saxn4cakff4ehvljtv5ulbjhd.js" async></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <div class="d-flex justify-content-between">
+                        <div class="logo">
+                            <a href="https://bftrading.org/app/"><img src="https://bftrading.org/app/dash_assets/assets/images/logo/logo.png"
+                                    alt="Logo" srcset=""></a>
+                        </div>
+                        <div class="toggler">
+                            <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu">
+                        <li class="sidebar-title">Menu</li>
+                        <li class="sidebar-item">
+                            <a href="javascript:void(0)" class='sidebar-link'>
+                              <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=false" type="text/javascript"></script>
+                            </a>
+                        </li>
+                        <li class="sidebar-item active ">
+                            <a href="https://bftrading.org/app/users" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-title">Transactions</li>
+
+                        <li class="sidebar-item">
+                            <a href="https://bftrading.org/app/users/history" class='sidebar-link'>
+                                <i class="bi bi-hexagon-fill"></i>
+                                <span>Transactions History</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item  ">
+                            <a href="https://bftrading.org/app/users/trade" class='sidebar-link'>
+                                <i class="bi bi-file-earmark-medical-fill"></i>
+                                <span>Live Trade</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-title">Investment</li>
+
+                        <li class="sidebar-item">
+                            <a href="https://bftrading.org/app/users/deposit_amount" class='sidebar-link'>
+                                <i class="bi bi-cloud-arrow-up-fill"></i>
+                                <span>Deposit Investment</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item  ">
+                            <a href="https://bftrading.org/app/users/withdrawal" class='sidebar-link'>
+                                <i class="bi bi-cash"></i>
+                                <span>Withdraw Investment</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="https://bftrading.org/app/users/deposit" class='sidebar-link'>
+                                <i class="bi bi-cloud-arrow-up-fill"></i>
+                                <span>Top-up Investment</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-title">Referrals</li>
+
+                        <li class="sidebar-item">
+                            <a href="https://bftrading.org/app/users/referral" class='sidebar-link'>
+                                <i class="bi bi-person-badge-fill"></i>
+                                <span>Referrals</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-title">Profile</li>
+
+                        <li class="sidebar-item">
+                            <a href="https://bftrading.org/app/users/profile" class='sidebar-link'>
+                                <i class="bi bi-person-badge-fill"></i>
+                                <span>Profile</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-title">Logout</li>
+
+                        <li class="sidebar-item">
+                            <a href="https://bftrading.org/app/logout" class='sidebar-link'>
+                                <i class="bi bi-hexagon-fill"></i>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+            </div>
+        </div>
+        <div id="main">
+            <header class="mb-3 d-flex justify-content-between">
+                <a href="#" class="burger-btn d-block d-xl-none">
+                    <i class="bi bi-justify fs-3"></i>
+                </a>
+                <div class="logo">
+                    <a href="https://bftrading.org/app/"><img src="https://bftrading.org/app/dash_assets/assets/images/logo/logo.png"
+                            alt="Logo" width="100" srcset=""></a>
+                </div>
+            </header>
+
+            <div class="page-heading">
+                <h3>Deposit</h3>
+                <small>Hello, Ngoc Duong</small>
+            </div>
+
+            
+
+<div class="page-content">
+    <div id="btcPayment" style="display:none;" class="card">
+        <div class="card-header">
+            <h4 class="card-title">Bitcoin Address</h4>
+        </div>
+        <div class="card-body container">
+
+            <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="1AjjBqvP4Aw8BNabJMx3NvnZECjmyY3Y73" id="referral_copy">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="referral()">Copy To Clipboard</button>
+                </span>
+            </div>
+
+
+        </div>
+    </div>
+<!--
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Ethereum Address</h4>
+        </div>
+        <div class="card-body container">
+
+            <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="" id="ethereum">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="ethereum()">Copy To Clipboard</button>
+                </span>
+            </div>
+
+
+        </div>
+    </div> -->
+
+    <div id="usdtPayment" style="display:none;" class="card">
+        <div class="card-header">
+            <h4 class="card-title">USDT Address</h4>
+        </div>
+        <div class="card-body container">
+
+            <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="TECPP1M5cEQ5TWKWUK6WtBSrY5GTKegPmc" id="usdt">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="usdt()">Copy To Clipboard</button>
+                </span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="bankPayment" style="display:none;" class="card">
+        <div class="card-header">
+            <h4 class="card-title">Bank Payment</h4>
+        </div>
+        <div class="card-body container">
+          <div class="form-group">
+              <label for="companyName" >Select Bank</label>
+              <select id="bankMethod"  onchange="selectBank()" class="form-control" required>
+                  <option value="none" selected disabled="">Select Bank Account</option>
+                  <option value="HUF" >Hungarian Forint account</option>
+                  <option value="EUR" >Euro account</option>
+                  <option value="USD" >US Dollar account</option>
+                  <option value="GBP" >British Pound account</option>
+                  <option value="PLN" >Polish Zloty account</option>
+              </select>
+          </div>
+
+            <div id="HUF" style="display:none;" class="form-group">
+              <h3>Hungarian Forint account</h3>
+              <label for="Beneficiary">Beneficiary</label>
+              <input readonly class="form-control width100" type="text" value="REVOLUT LTD, LONDON, UK">
+              <label for="Account">Account</label>
+              <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="12001008-01644328-00400008" id="hufAccount">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="customCopy('hufAccount')">Copy</button>
+                </span>
+              </div>
+              <label for="Reference">Reference</label>
+              <input readonly class="form-control width100" type="text" value="51745062">
+            </div>
+
+            <div id="EUR" style="display:none;" class="form-group">
+              <h3>Euro account</h3>
+              <label for="Beneficiary">Beneficiary</label>
+              <input readonly class="form-control width100" type="text" value="Vivien Krug">
+              <label for="Account">IBAN</label>
+              <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="LT98 3250 0977 6990 7384" id="eurAccount">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="customCopy('eurAccount')">Copy</button>
+                </span>
+              </div>
+              <label for="Reference">BIC</label>
+              <input readonly class="form-control width100" type="text" value="REVOLT21">
+            </div>
+
+            <div id="USD" style="display:none;" class="form-group">
+              <h3>US Dollar account</h3>
+              <label for="Beneficiary">Beneficiary</label>
+              <input readonly class="form-control width100" type="text" value="Vivien Krug">
+              <label for="Account">IBAN</label>
+              <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="LT98 3250 0977 6990 7384" id="usdAccount">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="customCopy('usdAccount')">Copy</button>
+                </span>
+              </div>
+              <label for="Reference">BIC</label>
+              <input readonly class="form-control width100" type="text" value="REVOLT21">
+            </div>
+
+            <div id="GBP" style="display:none;" class="form-group">
+              <h3>British Pound account</h3>
+              <label for="Beneficiary">Beneficiary</label>
+              <input readonly class="form-control width100" type="text" value="Vivien Krug">
+              <label for="Account">Account</label>
+              <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="71713875" id="gbpAccount">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="customCopy('gbpAccount')">Copy</button>
+                </span>
+              </div>
+              <label for="Reference">Sort Code</label>
+              <input readonly class="form-control width100" type="text" value="04-00-75">
+            </div>
+
+            <div id="PLN" style="display:none;" class="form-group">
+              <h3>Polish Zloty account</h3>
+              <label for="Beneficiary">Beneficiary</label>
+              <input readonly class="form-control width100" type="text" value="Vivien Krug">
+              <label for="Account">IBN</label>
+              <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="LT98 3250 0977 6990 7384" id="plnAccount">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="customCopy('plnAccount')">Copy</button>
+                </span>
+              </div>
+              <label for="Reference">Sort Code</label>
+              <input readonly class="form-control width100" type="text" value="REVOLT21">
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">Litecoin Address</h4>
+        </div>
+        <div class="card-body container">
+
+            <div class="input-group">
+                <input readonly class="form-control width100" type="text" value="" id="litecoin">
+                <span class="input-group-btn" >
+                    <button class="btn btn-info" onclick="litecoin()">Copy To Clipboard</button>
+                </span>
+            </div>
+
+
+        </div>
+    </div> -->
+
+    <script type="text/javascript">
+
+    function referral() {
+      /* Get the text field */
+      var copyText = document.getElementById("referral_copy");
+
+      document.getElementById("referral_copy").removeAttribute('disabled');
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      /* Alert the copied text */
+      Swal.fire({
+      icon: 'success',
+      title: 'Text copied successfully',
+
+      })
+      // alert("Copied the text: " + copyText.value);
+    }
+
+    function customCopy(value) {
+      /* Get the text field */
+      var copyText = document.getElementById(value);
+
+      document.getElementById(value).removeAttribute('disabled');
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      /* Alert the copied text */
+      Swal.fire({
+      icon: 'success',
+      title: 'Text copied successfully',
+
+      })
+      // alert("Copied the text: " + copyText.value);
+    }
+
+
+    function litecoin() {
+      /* Get the text field */
+      var copyText = document.getElementById("litecoin");
+
+      document.getElementById("litecoin").removeAttribute('disabled');
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      /* Alert the copied text */
+      Swal.fire({
+      icon: 'success',
+      title: 'Text copied successfully',
+
+      })
+      // alert("Copied the text: " + copyText.value);
+    }
+
+
+    function ethereum() {
+      /* Get the text field */
+      var copyText = document.getElementById("ethereum");
+
+      document.getElementById("ethereum").removeAttribute('disabled');
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      /* Alert the copied text */
+      Swal.fire({
+      icon: 'success',
+      title: 'Text copied successfully',
+
+      })
+      // alert("Copied the text: " + copyText.value);
+    }
+
+    function usdt() {
+      /* Get the text field */
+      var copyText = document.getElementById("usdt");
+
+      document.getElementById("usdt").removeAttribute('disabled');
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      /* Alert the copied text */
+      Swal.fire({
+      icon: 'success',
+      title: 'Text copied successfully',
+
+      })
+      // alert("Copied the text: " + copyText.value);
+    }
+
+    </script>
+
+    <div class="row">
+        <div class="card col-sm-6">
+            <div class="card-header">
+                <h4 class="card-title">Deposit</h4>
+            </div>
+            <div class="card-body">
+                <div class="card-block">
+
+                    <div class="card-text">
+                        <p class="card-text">Complete the form below to approve deposit.</p>
+                    </div>
+
+                    <!-- <form class="form" id="myForm" method="post" action="https://bftrading.org/app/users/deposit" enctype="multipart/form-data"> -->
+                    <form class="form" id="myForm" method="post" enctype="multipart/form-data" action="https://bftrading.org/app/users/deposit">
+                        <!-- flash messages -->
+                        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
+ <!-- success message -->
+        <!-- success message ends -->
+
+    <!-- error message -->
+    
+    <!-- validation errors -->
+    
+    <!-- styling php errors class -->
+
+    <style>
+            .errors li{
+            list-style-type: none;
+            width: 100%;
+            /* text-align: center; */
+        }
+        .errors ul{
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    </style>
+
+    <!-- <script>
+        $(document).ready(function(){
+            setTimeout(() => {
+                $('.error-message').hide();
+                $('.success-message').hide();
+            }, 9000);
+        })
+    </script> -->                        <!-- flash messages end -->
+                        <div class="form-body">
+                            <h4 class="form-section"><i class="icon-head"></i> Personal Info</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="projectinput1" class="sr-only">First Name</label>
+                                        <input type="text" id="projectinput1" class="form-control" value="Ngoc" placeholder="First Name" name="firstname" required readonly>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="projectinput2" class="sr-only">Last Name</label>
+                                        <input type="text" id="projectinput2" class="form-control" value="Duong" placeholder="Last Name" name="lastname" required readonly>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="projectinput3" class="sr-only">E-mail</label>
+                                        <input type="text" id="projectinput3" class="form-control" value="diemngocduong1212@gmail.com" placeholder="E-mail" name="email" required readonly>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="projectinput4" class="sr-only">Country</label>
+                                        <input type="text" id="projectinput4" class="form-control" value="Czech Republic" placeholder="Country" name="country" required readonly>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 class="form-section"><i class="icon-clipboard4"></i> Transaction info</h4>
+
+
+                            <div class="form-group">
+                                <label for="companyName" >Select Payment Method</label>
+                                <select id="paymentMethod" name="paymentMethod" onchange="changePaymentmethod()" class="form-control" required>
+                                    <option value="none" selected disabled="">Select Payment Method</option>
+                                    <!-- <option value="bank">Bank Transfer</option> -->
+                                    <option value="BTC" >Bitcoin</option>
+                                    <!-- <option value="LTC">Litecoin</option>
+                                    <option value="ETH">Ethereum</option> -->
+                                    <option value="USDT">USDT</option>
+                                </select>
+                            </div>
+
+                            <!-- <div class="form-group">
+                                <label for="companyName" class="sr-only">Select Plan</label>
+                                <select id="plan" name="plan" class="form-control" required>
+                                    <option value="none" selected="" disabled="">Select Plan</option>
+                                    <option value="Basic">Basic</option>
+                                    <option value="Silver">Silver</option>
+                                    <option value="Business">Business</option>
+                                    <option value="Premium">Premium</option>
+                                </select>
+                            </div> -->
+                            <div class="form-group">
+                                <label for="companyName" >Investment Duration</label>
+                                <select onchange="cal()" name="duration" class="form-control" id="payout" required >
+                                    <option value="none" selected disabled="">Select Investment Duration</option>
+                                    <option value="daily" >Daily</option>
+                                    <option value="48hours" >48 Hours</option>
+                                    <option value="6months">6 Months</option>
+                                    <option value="9months">9 Months</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="projectinput2">Enter Amount</label>
+                                <!-- <input type="number" id="amount" class="form-control" value="" placeholder="amount" name="amount" required readonly> -->
+                                <input onchange="cal()" type="number" id="amount"  class="form-control"  min="200" value="" placeholder="Enter deposited amount" name="amount" required >
+                            </div>
+
+
+
+                            <div class="mb-3">
+                                <label for="formFile" class="form-label">Proof of payment</label>
+                                <input class="form-control" name="depositShot" type="file" id="formFile">
+                            </div>
+                            <small style="color:red;">Please make sure funds has been transfered before submitting for Verification.</small>
+
+                        </div>
+
+                        <!-- <div class="col-12 d-flex justify-content-end">
+                            <button type="button" class="btn btn-warning me-1 mb-1 mr-1" name="button">Calculate Profit</button>
+                            <button type="button" onclick="submit_deposit()" class="btn btn-primary me-1 mb-1">Click Here To Deposit</button>
+                            <button type="button" onclick="" class="btn btn-primary me-1 mb-1">Submit Deposit For Verification</button>
+                        </div> -->
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <button type="button" class="btn btn-warning me-1 mb-1 mr-1" name="button">Calculate Profit</button>
+
+                          </div>
+                          <div class="col-sm-6">
+                            <button type="button" onclick="submitForm()" class="btn btn-primary me-1 mb-1">Submit Deposit For Verification</button>
+
+                          </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-block">
+                        <h4 class="card-title text-center">- Profit Calculator -</h4>
+                        <!-- <p class="card-text">Get 41,400 USD for $10000.</p> -->
+                    </div>
+                    <div class="container text-center border border-dark">
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              Total Expected amount - <b id="total"></b>
+                          </li>
+                          <li class="list-group-item">
+                              Investment plan - <b id="plan"></b>
+                          </li>
+                          <li class="list-group-item">
+                              Amount Entered - <b id="mainamount"></b>
+                          </li>
+                          <li class="list-group-item">
+                              Amount Per Day - <b id="daily"></b>
+                          </li>
+                          <li class="list-group-item">
+                              Duration  - <b id="mainpayout"></b>
+                          </li>
+                      </ul>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Basic minimum - $200 <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Silver minimum - 5,000 <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Business minimum - $15,000 <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Premium minimum - $35,000 <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-block">
+                        <h4 class="card-title">- Other Plans -</h4>
+                        <p class="card-text">Select a plan with any amount suitable to you.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            24x7 support <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Secured trading <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Trading bonus <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Maximum benefit <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="tag tag-default tag-pill bg-info float-xs-right"></span>
+                            NB: Chat with our agent to inform you of your trading benefit
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+    <!-- <div class="row match-height">
+        <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-block">
+                        <h4 class="card-title">- BRONZE PLAN -</h4>
+                        <p class="card-text">Get 6250 USD for $700.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+
+                            24x7 support <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Secured trading <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Trading bonus <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Trading alert <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                        <li class="list-group-item">
+                            Professional live trade <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                        <li class="list-group-item">
+                            Unlimited Withdrawal method <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                        <li class="list-group-item">
+                            Personal account manager <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-block">
+                        <h4 class="card-title">- SLIVER PLAN -</h4>
+                        <p class="card-text">Get 10,070 USD for $1000.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            24x7 support <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Secured trading <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Trading bonus <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Trading alert <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Professional live trade <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Unlimited Withdrawal method <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                        <li class="list-group-item">
+                            Personal account manager <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-block">
+                        <h4 class="card-title">- GOLD PLAN -</h4>
+                        <p class="card-text">Get 29,400 USD for $7000.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                           24x7 support <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Secured trading <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Trading bonus <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                           Trading alert <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Professional live trade <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Unlimited Withdrawal method <i class="fas fa-check-circle" style="color:green;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            Personal account manager <i class="far fa-times-circle" style="color:red";></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</div>
+<script type="text/javascript">
+  function submitForm(){
+    let x = document.forms["myForm"]["paymentMethod"].value;
+    let y = document.forms["myForm"]["amount"].value;
+    if (x == "none") {
+      Swal.fire({
+        title: 'Error',
+        icon: 'warning',
+        html: 'Payment method is required.',
+      });
+      return false;
+    }else if (y == "") {
+      Swal.fire({
+        title: 'Error',
+        icon: 'warning',
+        html: 'Please enter specific amount you want to deposit.',
+      });
+      return false;
+    }else if (y<200) {
+      Swal.fire({
+        title: 'Error',
+        icon: 'warning',
+        html: 'Amount must be greater than $500.',
+      });
+      return false;
+    }else {
+      document.getElementById("myForm").submit();
+    }
+  }
+
+        function cal() {
+            var  amount = $('#amount').val();
+            var payout = $('#payout').val();
+            var echo;
+            var percent =  1;
+            var compouund = 0.5;
+            var plan;
+            var total;
+            var daily = amount*percent;
+            var daily2 = amount*compouund;
+            console.log(payout)
+            if(payout=="daily"){
+                echo ="Daily";
+                daily = 500 * amount;
+                daily = daily/100;
+
+                total = daily*1;
+                total = parseInt(total)+parseInt(amount);
+                plan = "Daily"
+
+              }else if(payout=="48hours"){
+                  echo ="48 Hours";
+                  daily = 500 * amount;
+                  daily = daily/100;
+
+                  total = daily*1;
+                  total = total*2;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "48 Hours"
+
+                }else if(payout=="6months"){
+                if (amount <= 9999) {
+                  echo ="6 Months";
+                  daily = 800 * amount;
+                  daily = daily/100;
+
+                  total = daily*180;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Basic"
+                }else if (amount <= 49999) {
+                  echo ="6 Months";
+                  daily = 900 * amount;
+                  daily = daily/100;
+
+                  total = daily*180;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Silver"
+                }else if (amount <= 99999) {
+                  echo ="6 Months";
+                  daily = 850 * amount;
+                  daily = daily/100;
+
+                  total = daily*180;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Business"
+                }else if (amount >= 100000) {
+                  echo ="6 Months";
+                  daily = 851 * amount;
+                  daily = daily/100;
+
+                  total = daily*180;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Premium"
+                }
+              }else if(payout=="9months"){
+                if (amount <= 9999) {
+                  echo ="9 Months";
+                  daily = 800 * amount;
+                  daily = daily/100;
+
+                  total = daily*270;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Basic"
+                }else if (amount <= 49999) {
+                  echo ="9 Months";
+                  daily = 900 * amount;
+                  daily = daily/100;
+
+                  total = daily*270;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Silver"
+                }else if (amount <= 99999) {
+                  echo ="9 Months";
+                  daily = 850 * amount;
+                  daily = daily/100;
+
+                  total = daily*270;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Business"
+                }else if (amount >= 100000) {
+                  echo ="9 Months";
+                  daily = 851 * amount;
+                  daily = daily/100;
+
+                  total = daily*270;
+                  total = parseInt(total)+parseInt(amount);
+                  plan = "Premium"
+                }
+              }
+
+            $('#mainpayout').text(echo);
+            $('#plan').text(plan);
+            $('#mainamount').text('$'+amount);
+            $('#daily').text('$'+daily);
+            $('#total').text('$'+total);
+
+
+
+        }
+
+    </script>
+
+<script type="text/javascript">
+
+function submit_deposit() {
+  let x = document.forms["myForm"]["paymentMethod"].value;
+  if (x == "") {
+    Swal.fire({
+      title: 'Error',
+      icon: 'warning',
+      html: 'Payment method is required.',
+    });
+    return false;
+  }
+  let y = document.forms["myForm"]["amount"].value;
+  if (y == "") {
+    Swal.fire({
+      title: 'Error',
+      icon: 'warning',
+      html: 'Please enter specific amount you want to deposit.',
+    });
+    return false;
+  }
+
+  if (y<500) {
+    Swal.fire({
+      title: 'Error',
+      icon: 'warning',
+      html: 'Amount must be greater than $500.',
+    });
+    return false;
+  }
+  let timerInterval
+  Swal.fire({
+    title: 'Processing Payment',
+    icon: 'info',
+    html: 'You will be redirected to a payment gateway to process payment.',
+    timer: 5000,
+    timerProgressBar: true,
+    didOpen: () => {
+      Swal.showLoading()
+      const b = Swal.getHtmlContainer().querySelector('b')
+
+    },
+    willClose: () => {
+      clearInterval(timerInterval)
+    }
+  }).then((result) => {
+    document.getElementById("myForm").submit();
+
+  })
+
+}
+
+function changePaymentmethod(){
+  $('#btcPayment').hide();
+  $('#usdtPayment').hide();
+  $('#bankPayment').hide();
+
+  let value = $('#paymentMethod').val();
+  if (value == "BTC") {
+    $('#btcPayment').show();
+    Swal.fire({
+      icon: 'success',
+      title: 'BTC DEPOSIT',
+      text: 'Copy the BTC wallet address above and make deposit.'
+    });
+  }else if (value == "USDT") {
+    $('#usdtPayment').show();
+    Swal.fire({
+      icon: 'success',
+      title: 'USDT DEPOSIT',
+      text: 'Copy the USDT wallet address above and make deposit.'
+    });
+  }else if (value == "bank") {
+    $('#bankPayment').show();
+    Swal.fire({
+      icon: 'success',
+      title: 'BANK DEPOSIT',
+      text: 'Select a bank account above and make deposit.'
+    });
+  }
+}
+
+
+function selectBank(){
+  $('#HUF').hide();
+  $('#EUR').hide();
+  $('#USD').hide();
+  $('#GBP').hide();
+  $('#PLN').hide();
+
+
+  let value = $('#bankMethod').val();
+  if (value == "HUF") {
+    $('#HUF').show();
+  }else if (value == "EUR") {
+    $('#EUR').show();
+  }else if (value == "USD") {
+    $('#USD').show();
+  }else if (value == "GBP") {
+    $('#GBP').show();
+  }else if (value == "PLN") {
+    $('#PLN').show();
+  }
+}
+
+</script>
+
+
+
+
+
+
+            <footer>
+                <div class="footer clearfix mb-0 text-muted">
+                    <div class="float-start">
+                        <p>2022 &copy; Bitcoin Fx Trading</p>
+                    </div>
+                    <!-- <div class="float-end">
+                        <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
+                                href="http://ahmadsaugi.com/">A. Saugi</a></p>
+                    </div> -->
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://bftrading.org/app/dash_assets/assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="https://bftrading.org/app/dash_assets/assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://bftrading.org/app/dash_assets/assets/vendors/apexcharts/apexcharts.js"></script>
+    <script src="https://bftrading.org/app/dash_assets/assets/js/pages/dashboard.js"></script>
+
+    <script src="https://bftrading.org/app/dash_assets/assets/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.0/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.0/js/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+
+    $(document).ready(function() {
+      $('#data_table').DataTable();
+    } );
+
+
+  </script>
+</body>
+
+
+<!-- Mirrored from zuramai.github.io/mazer/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 29 Aug 2021 19:53:39 GMT -->
+
+</html>
